@@ -4,19 +4,29 @@
 // 4=2x2=2^4
 
 
+// function Ispowertwo(n){
+//     if(n<1){
+//         return false;
+//     }
+//        while ( n >1 ) {
+//             if (n%2!=0) {
+//                      return false;
+//             }
+//             n=n/2;
+//         }
+//         return true;  
+// }
+
 function Ispowertwo(n){
     if(n<1){
         return false;
     }
-       while ( n >1 ) {
-            if (n%2!=0) {
-                     return false;
-            }
-            n=n/2;
-        }
-        return true;  
+return (n&(n-1))===0
 }
 
-console.log(Ispowertwo(1))
+console.log(Ispowertwo(4))
+console.log(Ispowertwo(5))
+console.log(Ispowertwo(8))
 
-// Here Big O is for given function is O(n) as function contain 1 loop which is liner time complexility
+
+// Here Big O is for given function is O(logn) as function contain 1 loop which is liner time complexility
