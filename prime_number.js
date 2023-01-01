@@ -14,6 +14,6 @@ function Isprime(n){
         return true;  
 }
 
-console.log(Isprime(5))
+console.log(Isprime(6))
 
 // Here Big O is for given function is O(n) as function contain 1 loop which is liner time complexility
