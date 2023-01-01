@@ -7,7 +7,7 @@ function factorial(n){
     for (let index = 2; index <= n; index++) {
         fac=fac*index;// it run 4 times i.e n-1
     }
-    return fac;  //1
+    return fac;
 }
 
 console.log(factorial(5))
