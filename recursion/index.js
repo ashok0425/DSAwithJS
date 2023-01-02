@@ -3,14 +3,16 @@
 
 // Given a number n ,find the nth element of the fibonannic sequence
 
-function fabrecursioon(n){
+function fibonannicRecursion(n){
     if(n<2){
         return n;
     }
-   return fabrecursioon(n-1)+fabrecursioon(n-2); 
+   return fibonannicRecursion(n-1)+fibonannicRecursion(n-2); 
                            
 }                        
-                          
-console.log(fabrecursioon(6))//8
+                      
+
+console.log(fibonannicRecursion(6))//8
 
 // Big O notation is O(2^n)
+                                
