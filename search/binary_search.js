@@ -27,4 +27,4 @@ console.log(search([3,44,8,9,0],2))
 console.log(search([3,4,5,8,9,0],8))
 
 
-// Here Big O is O(n)
+// Here Big O is O(logn)
